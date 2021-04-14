@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
+  const onClick = () => {
+    console.log('aiue')
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={onClick}>test</button>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
